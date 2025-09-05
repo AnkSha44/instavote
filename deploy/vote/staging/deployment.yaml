@@ -5,9 +5,9 @@ metadata:
     app: vote
   name: vote
 spec:
-  replicas: 3
+  replicas: 5
   template:
     spec:
       containers:
-      - image: schoolofdevops/vote:v4
+      - image: schoolofdevops/vote:v3
         name: vote
